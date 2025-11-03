@@ -1,0 +1,1 @@
+mysql -u root -p mystery_manorA -e "SELECT ROUTINE_NAME FROM INFORMATION_SCHEMA.ROUTINES WHERE ROUTINE_SCHEMA='mystery_manor';"
