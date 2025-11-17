@@ -4,6 +4,11 @@ SOURCE schema.sql;
 SHOW TABLES;
 EXIT;
 
+**To run locally 
+create a .env file in root directory as 
+.env.local
+DATABASE_URL=mysql://USER:PASS@localhost:****/mystery_manorA**
+
 # 🕵️ Mystery Manor Game
 
 A full-stack detective mystery game built with Next.js 15, TypeScript, MySQL, and TanStack Query.
